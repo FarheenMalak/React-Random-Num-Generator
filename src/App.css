@@ -1,0 +1,64 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  background-color: #fff;
+  padding: 40px 60px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Number display */
+.number-display {
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #72c068;
+}
+
+.number-display p {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Button styling */
+button {
+  background-color: #72c068;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#45963a;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+
